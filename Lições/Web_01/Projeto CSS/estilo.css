@@ -1,0 +1,145 @@
+body{
+    font-family: arial, sans-serif;
+    background-color: #ccc;
+    margin: 0;
+    /* margin: auto centraliza na horizontal */
+    }
+.header_1{
+    background-image: url(../imagens/bg-3.jpg);
+    height: 500px;
+    background-position: right center;
+    background-size: cover;
+    padding: 10px; 
+    border-top: 1px solid #ccc; 
+}
+
+
+
+.header_1 nav ul{
+    text-align: right;
+    margin: 15px 20px 0px 0px
+}
+.header_1 nav li{
+    display: inline-block;
+    list-style: none;
+    border: 1.8px #ccc solid;
+    margin-left: 2px;
+}
+.header_1 nav a{
+    background: rgb(0,0,0);
+    background: rgba(0,0,0,0.3);
+    padding: 11px;
+    display: block;
+    color: #ccc;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.header_1 nav a:hover{
+    background: rgba(0,0,0,0.26);
+}
+
+
+
+
+
+.center{
+    text-align: center;
+    color: white;
+    margin-top: 75px;
+    padding: 60px;
+}
+.center h1{
+    text-transform: uppercase;
+    font-size: 45px;
+    text-shadow: 5px 3px 3px #333;
+}
+.center p{
+    border-bottom: solid white 2px;
+    display: inline-block;
+    background-color: black;
+    opacity: .7;
+    padding: 9px;
+    padding-top: 10px;
+
+}
+main{
+    width: 80%;
+    margin: auto;
+}
+.section{
+    background-color: white;
+    padding: 15px;
+    margin-top: 15px;
+    padding-bottom: 10px;
+}
+
+
+
+
+
+._section{
+    background-color: white;
+    padding: 10px;
+    margin-top: 15px;
+    height: 255px 1000px;
+    margin-top: 15px;
+    overflow: auto;
+}
+.card{
+    float: left;
+    box-sizing: border-box;
+    width: 32%
+}
+
+.card1, .card2{
+    margin-right: 2%;
+}
+
+.card img{
+    width: 100%;
+    display: block;
+}
+
+.ccc{
+    background-color: rgb(82, 82, 82);
+    padding: 10px;
+    color: rgb(240, 234, 234);
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+.ccc:hover{
+    background-color: rgb(204, 48, 48);
+}
+.card1 .ccc:hover{
+    background-color: rgb(250, 179, 98);
+}
+.card2 .ccc:hover{
+    background-color: rgb(148, 39, 148);
+}
+
+
+
+
+
+
+.section h2{
+    background-color: rgb(211, 210, 210);
+    padding: 10px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(122, 122, 122);
+    border-bottom-width: 1px;
+    margin: auto;
+    clear: both;
+
+}
+footer{
+    text-align: center;
+    text-shadow: 1px 1px 3px #333;
+    background-color: rgb(104, 104, 104);
+    height: 50px;
+    line-height: 50px;
+}

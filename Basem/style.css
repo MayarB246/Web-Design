@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: yellow;
+}
+.mayar{
+    width: 20%;
+    height: auto;
+    font-size: large;
+    background-color: black;
+    color: white;
+}

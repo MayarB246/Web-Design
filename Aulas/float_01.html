@@ -1,0 +1,84 @@
+<!doctype html>
+<!-- doctype informa ao agente de usuario a versão do html que deve ser renderizada-->
+<html lang="pt-br">
+    <head>
+        <title> Início Float </title>
+        <meta charset="utf-8">
+        <meta name="author" content="Mayar">
+        <meta name="description" content="A estrutura base para construir uma página">
+        <meta name="keywords" content="html5, tecnologia">
+    </head>
+
+
+    <style>
+
+#principal{
+    width: 70%;
+    background: #ccc;
+    padding: 15px;
+    overflow: auto;
+}
+
+#principal div{
+    height: 50px;
+    margin: 5px;
+    width: 109px;
+}
+
+#div1{
+    border: solid yellow 2px;
+    background-color: rgb(255, 255, 170);
+    float: left;
+}
+#div2{
+    border: solid red 2px;
+    background-color: rgb(255, 170, 170);
+    float: left; 
+}
+#div3{
+    border: solid blue 2px;
+    background-color: rgb(170, 170, 255);
+    float: left;
+}
+header{
+    background-color: #aaa;
+    height: 50px;
+    }
+nav{
+    width: 25%;
+    height: 50px;
+    background-color: rgb(255, 193, 78);
+    float: left;
+}
+main{
+    width: 70%;
+    height: 100px;
+    background-color: yellow;
+    float: right;
+    }
+footer{
+    height: 50px;
+    background-color: blue;
+    clear: both;
+}
+
+
+    </style>
+
+
+    <body>
+        <h1>Float</h1>
+        <div id="principal">
+            <div id="div1">Div 01</div>
+            <div id="div2">Div 02</div>
+            <div id="div3">Div 03</div>
+        </div>
+
+        <hr>
+
+        <header>header</header>
+        <nav>nav</nav>
+        <main>main</main>
+        <footer>footer</footer>
+    </body>
+</html>
